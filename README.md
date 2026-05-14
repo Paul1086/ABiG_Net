@@ -96,4 +96,4 @@ Each combined patch feature contains: 51 Voronoi/Delaunay/MST/NN features + 18 c
 
 
 AI-assisted editing note:
-AI-assisted tools were used only to help polish code formatting and comments. The authors reviewed and tested all code in this repository.
+AI-assisted tools were used only to help polish code formatting and comments. The authors written, reviewed and tested all code in this repository.
