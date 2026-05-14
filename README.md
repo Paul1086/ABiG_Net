@@ -1,4 +1,4 @@
-Approximate Bilevel Graph Structure Learning for Histopathology Image Classification
+# Approximate Bilevel Graph Structure Learning for Histopathology Image Classification
 
 
 The structural and spatial arrangements of cells within tissues represent their functional states, making
@@ -25,6 +25,7 @@ tractable alternative for large-scale computational pathology.
 
 The input image patches should be organized as follows: 
 
+```text
 sample_data/
 ├── img_001/
 │   ├── patch_0.png
