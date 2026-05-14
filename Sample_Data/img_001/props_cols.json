@@ -1,0 +1,14 @@
+[
+  "label",
+  "centroid-0",
+  "centroid-1",
+  "area",
+  "equivalent_diameter",
+  "mean_intensity",
+  "solidity",
+  "major_axis_length",
+  "minor_axis_length",
+  "orientation",
+  "perimeter",
+  "eccentricity"
+]
