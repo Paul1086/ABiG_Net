@@ -90,7 +90,7 @@ extract_vor_del_mst_nn_features(root_dir, 64);
 python combine_patch_features.py \
   --root-dir "path/to/sample_data" \
   --overwrite
-
+  
 Each combined patch feature contains: 51 Voronoi/Delaunay/MST/NN features + 18 cell graph features = 69 features
 
 
