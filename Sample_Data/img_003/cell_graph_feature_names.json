@@ -1,0 +1,20 @@
+[
+  "clustering_coefficient",
+  "average_degree",
+  "number_connected_components",
+  "giant_connected_component_ratio",
+  "number_vertices",
+  "number_edges",
+  "average_eccentricity",
+  "radius",
+  "diameter",
+  "number_central_points",
+  "percent_central_points",
+  "closeness_average",
+  "laplacian_energy",
+  "laplacian_trace",
+  "upper_slope",
+  "lower_slope",
+  "largest_adjacency_eigenvalue",
+  "adjacency_energy"
+]
