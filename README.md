@@ -24,9 +24,13 @@ sample_data/
 ```
 
 To demonstrate how to use the code, we provide three sample images, each with 10 randomly selected patches.
-In this sample example: 
+
+In this sample example:
+
 img_001 = training image
+
 img_002 = validation image
+
 img_003 = test image
 
 
