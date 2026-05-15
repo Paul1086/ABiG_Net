@@ -27,11 +27,11 @@ To demonstrate how to use the code, we provide three sample images, each with 10
 
 In this sample example:
 
+```text
 img_001 = training image
-
 img_002 = validation image
-
 img_003 = test image
+```
 
 
 Training instruction for ABiG-Net:
