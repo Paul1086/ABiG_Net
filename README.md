@@ -39,8 +39,10 @@ sample_data/
     ├── patch_0.png
     ├── patch_1.png
     └── ...
+```
 
-In this sample example we consider: 
+To demonstrate how to use the code, we provide three sample images, each with 10 randomly selected patches.
+In this sample example: 
 img_001 = training image
 img_002 = validation image
 img_003 = test image
@@ -59,6 +61,23 @@ python run_training.py \
   --batch-size 1 \
   --num-iterations 200 \
   --output-dir "outputs/sample_run"
+
+
+
+For the full dataset, multiple image folders can be passed using comma-separated paths and labels.
+With full dataset info, use following command: 
+
+python run_training.py \
+  --train-dirs "path/to/img_001,path/to/img_004,path/to/img_005,path/to/img_006" \
+  --train-labels "0,1,0,1" \
+  --val-dirs "path/to/img_002,path/to/img_007" \
+  --val-labels "0,1" \
+  --test-dirs "path/to/img_003,path/to/img_008" \
+  --test-labels "1,0" \
+  --out-dim 2 \
+  --batch-size 1 \
+  --num-iterations 200 \
+  --output-dir "outputs/full_dataset_run"
 
 
 
