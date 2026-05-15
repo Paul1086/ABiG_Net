@@ -52,6 +52,7 @@ python run_training.py \
 
 For the full dataset, multiple image folders can be passed using comma-separated paths and labels.
 With full dataset info, use following command: 
+(Please set the hyperparameters based on your requirements)
 ```
 python run_training.py \
   --train-dirs "path/to/img_001,path/to/img_004,path/to/img_005,path/to/img_006" \
