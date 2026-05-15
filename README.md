@@ -39,7 +39,7 @@ sample_data/
     ├── patch_0.png
     ├── patch_1.png
     └── ...
-```
+
 
 To demonstrate how to use the code, we provide three sample images, each with 10 randomly selected patches.
 In this sample example: 
@@ -116,3 +116,4 @@ Each combined patch feature contains: 51 Voronoi/Delaunay/MST/NN features + 18 c
 
 AI-assisted editing note:
 AI-assisted tools were used only to help polish code formatting and comments. The authors written, reviewed and tested all code in this repository.
+```
