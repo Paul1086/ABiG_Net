@@ -102,6 +102,17 @@ python combine_patch_features.py \
 ```  
 Each combined patch feature contains: 51 Voronoi/Delaunay/MST/NN features + 18 cell graph features = 69 features
 
-
-
+* Learned graph interpretability analysis
+```
+python extract_learned_graph_features.py \
+    --dataset-root /path/to/dataset \
+    --raw-csv-dir /path/to/csv_files \
+    --checkpoint /path/to/model.pth \
+    --output-dir /path/to/feature_outputs \
+```
+Then 
+```
+python analyze_graph_features.py \
+    --feature-file /path/to/feature_outputs/extended_learned_graph_features_per_image.csv \
+    --output-dir /path/to/statistical_analysis
 ```
